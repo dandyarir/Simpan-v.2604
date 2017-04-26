@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dendi.simpan.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="INPUT: " />
+
+    <EditText
+        android:id="@+id/editInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/saveInput"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="saveSP"
+        android:text="Save SP" />
+
+    <Button
+        android:id="@+id/loadInput"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:onClick="loadSp"
+        android:text="Load SP" />
+
+    <Button
+        android:id="@+id/saveInput1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="saveIS"
+        android:layout_gravity="center"
+        android:text="Save IS" />
+
+    <Button
+        android:id="@+id/loadInput1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="loadIS"
+        android:layout_gravity="center"
+        android:text="Load IS" />
+
+    <Button
+        android:id="@+id/loadInput2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="saveES"
+        android:layout_gravity="center"
+        android:text="Save ES" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OUTPUT: " 
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/editOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
